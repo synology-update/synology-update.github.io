@@ -8,6 +8,7 @@ body {
 	font-family: Courier New, monospace; 
 	text-align: center;
 	color: white;
+	font-size: 17px;
 	}
 
 input {
@@ -42,9 +43,15 @@ input {
 	padding-bottom:300;
 		}
 
-#update {
+#updatetvshow {
 	color: #74d7f2; font-weight: bold;
 			}
+#updatemovie {
+	color: ; font-weight: bold;
+}
+#update {
+	color: #41ff17; font-weight: bold;
+}
 #center {
     text-align: center;
     padding-top: 20%;
@@ -162,8 +169,10 @@ input {
  	font-size: 16;
 }
 
-#infowidth {
-	width: 100%;
+
+#movielist {
+	font-size: 13px;
+	padding-bottom: 400px;
 }
 /* happy pride month */
 #green:hover {
