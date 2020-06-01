@@ -71,16 +71,16 @@ input {
 	color: #333232;
 }
 
-#statusok:hover {
+#statusgreen:hover {
 	height: 100%
 	width: 100%;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	animation: color 10s ease;
+	animation: green 10s ease;
 }
 
-@keyframes color {
+@keyframes green {
 	0% {
 		background: black;
 		color: white;
@@ -89,6 +89,81 @@ input {
 		background: #07f261;
 		color: black;
 	}
+}
+
+#statusyellow:hover {
+	height: 100%
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	animation: yellow 10s ease;
+}
+
+@keyframes yellow {
+	0% {
+		background: black;
+		color: white;
+	}
+	25% {
+		background: #fffb03;
+		color: black;
+	}
+}
+
+#statusorange:hover {
+	height: 100%
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	animation: orange 10s ease;
+}
+
+@keyframes orange {
+	0% {
+		background: black;
+		color: white;
+	}
+	25% {
+		background: #ffb700;
+		color: black;
+	}
+}
+
+#statusred:hover {
+	height: 100%
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	animation: red 10s ease;
+}
+
+@keyframes red {
+	0% {
+		background: black;
+		color: white;
+	}
+	25% {
+		background: #ff0000;
+		color: black;
+	}
+}
+
+
+#infostatus {
+	position: fixed;
+  	left: 0;
+ 	bottom: 0;
+	width: 100%;
+ 	color: white;
+ 	text-align: center;
+ 	font-size: 16;
+}
+
+#infowidth {
+	width: 100%;
 }
 /* happy pride month */
 #green:hover {
