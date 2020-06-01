@@ -45,10 +45,11 @@ input {
 #update {
 	color: #74d7f2; font-weight: bold;
 			}
-#passwordcss {
+#center {
     text-align: center;
-    padding-top: 15%;
-    padding-bottom: 15%;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    font-weight: bold;
         }
 #submit {
 	border: 2px solid white;
@@ -61,6 +62,34 @@ input {
 	color: black;
 }
 
+#secretLink {
+	color: black;
+	text-decoration: none;
+}
+
+#secretLink:hover {
+	color: #333232;
+}
+
+#statusok:hover {
+	height: 100%
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	animation: color 10s ease;
+}
+
+@keyframes color {
+	0% {
+		background: black;
+		color: white;
+	}
+	25% {
+		background: #07f261;
+		color: black;
+	}
+}
 /* happy pride month */
 #green:hover {
 	background-color: green;
