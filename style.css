@@ -60,6 +60,23 @@ input {
 	background-color: white;
 	color: black;
 }
+
+/* happy pride month */
 #green:hover {
 	background-color: green;
+}
+#purple:hover {
+	background-color: purple;
+}
+#blue:hover {
+	background-color: blue;
+}
+#yellow:hover {
+	background-color: yellow;
+}
+#orange:hover {
+	background-color: orange;
+}
+#red:hover {
+	background-color: red;
 }
