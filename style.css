@@ -30,6 +30,10 @@ input {
 	background-color: black;
 }
 
+#link:hover {
+	color: grey;
+}
+
 #infolink {
 	color: grey;
 	text-decoration: none;
@@ -173,6 +177,11 @@ input {
 #movielist {
 	font-size: 13px;
 	padding-bottom: 400px;
+}
+
+#wrongpassword {
+	color: red;
+	font-weight: bold;
 }
 /* happy pride month */
 #green:hover {
