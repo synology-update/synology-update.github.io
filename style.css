@@ -1,0 +1,62 @@
+
+a {
+	color: white; font-weight: bold;
+	}
+
+body {
+	background-color: black;
+	font-family: Courier New, monospace; 
+	text-align: center;
+	color: white;
+	}
+
+input {
+	border: none;
+	background-color: black;
+	border-bottom: 2px solid white;
+	color: white;
+	text-align: center;
+}
+
+#info {
+	position: fixed;
+  	left: 0;
+ 	bottom: 0;
+	width: 100%;
+ 	color: white;
+ 	text-align: center;
+ 	font-size: 16;
+	background-color: black;
+}
+
+#infolink {
+	color: grey;
+	text-decoration: none;
+			}
+
+#infolink:hover {
+	color: black;
+	background-color: white
+			}
+#list {
+	padding-bottom:300;
+		}
+
+#update {
+	color: #74d7f2; font-weight: bold;
+			}
+#passwordcss {
+    text-align: center;
+    padding-top: 15%;
+    padding-bottom: 15%;
+        }
+#submit {
+	border: 2px solid white;
+	border-radius: 5px;
+	background-color: black;
+	color: white;
+}
+#submit:hover {
+	background-color: white;
+	color: black;
+}
