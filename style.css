@@ -93,7 +93,7 @@ input {
 
 @keyframes green {
 	0% {
-		background: black;
+		background-color: black;
 		color: white;
 	}
 	25% {
@@ -192,6 +192,26 @@ input {
 	color: red;
 	font-weight: bold;
 }
+
+.clock {
+	font-weight: bold;
+	width: auto;
+	animation: clock 2s infinite;
+}
+
+
+@keyframes clock {
+	0% {
+		color: white;
+	}
+	50% {
+		color: grey;
+	}
+	100% {
+		color: white;
+	}
+}
+
 /* happy pride month */
 #green:hover {
 	background-color: green;

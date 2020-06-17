@@ -1,26 +1,47 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Update</title>
-		 <link href="style.css" rel="stylesheet">
-	</head>
+<head>
+  <link href="style.css" rel="stylesheet">
+<script>
+function startTime() {
+  var today = new Date();
+  var h = today.getHours();
+  var m = today.getMinutes();
+  var s = today.getSeconds();
+  m = checkTime(m);
+  s = checkTime(s);
+  document.getElementById('txt').innerHTML =
+  h + ":" + m + ":" + s;
+  var t = setTimeout(startTime, 500);
+}
+function checkTime(i) {
+  if (i < 10) {i = "0" + i};
+  return i;
+}
+</script>
+</head>
 
-	<body>
-		<p> update 01/06/2020 </p>
-			<p id="update">
-			Official server website is realesed for public beta testing<br>
-		</p>
-			<p>--------------</p>
-			<a id="link" href="https://quickconnect.to/piotrbin"> 192.168.1.109 </a>
-			<br> <br> <a id="secretLink" href="serverStatus.html"> Server Status</a>
-		</p>
+<body onload="startTime()">
 
-		<p id="info">
 
-			 
-			 <a id="infolink" href="movieslist.html">All available Movies list</a> <br>
-			<a id="infolink" href="tvshowslist.html">All available TV Shows list</a>
-			
-		</p>
-	</body>
+<p> update 01/06/2020 </p>
+<div id="txt" class="clock"></div>
+      <p id="update">
+      Official server website is realesed for public beta testing
+    </p> 
+       <p>--------------</p>
+      <a id="link" href="https://quickconnect.to/piotrbin"> 192.168.1.109</a>
+      <br><a id="secretLink" href="serverStatus.html"> Server Status</a>
+    </p>
+
+    <p id="info">
+
+       
+       <a id="infolink" href="movieslist.html">All available Movies list</a> <br>
+      <a id="infolink" href="tvshowslist.html">All available TV Shows list</a>
+      
+    </p>
+
+</body>
 </html>
+
