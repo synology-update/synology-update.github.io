@@ -54,7 +54,7 @@ input {
 	color: ; font-weight: bold;
 }
 #update {
-	color: #41ff17; font-weight: bold;
+	color: red; font-weight: bold;
 }
 #center {
     text-align: center;
